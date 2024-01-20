@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form {
+    @apply my-5;
+  }
+  .form__input-container {
+    @apply my-2;
+  }
+  .form__label {
+    @apply relative left-4 hidden lg:block font-body-2 text-xs;
+  }
+  .form__control {
+    @apply rounded-md my-2 py-5 pl-2 pr-4 w-full h-5 block bg-grey-100 font-normal text-sm text-grey-900 leading-5;
+  }
+  .button {
+    @apply rounded-md py-2.5 px-6 w-full block leading-5;
+  }
+  .button--primary {
+    @apply bg-purple font-bold text-sm text-white;
+  }
+  .button--google {
+    @apply bg-black-800 font-body-2 font-normal text-xs text-white;
+  }
+}

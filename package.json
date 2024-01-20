@@ -1,0 +1,14 @@
+{
+  "name": "hsbc-assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "author": "Nur Muhammad Arief Kurniawan <ariefmuhammad897@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
